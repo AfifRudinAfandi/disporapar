@@ -1,0 +1,67 @@
+p{
+    margin-bottom: 0;
+}
+.carausel-content .carousel .carousel-inner{
+    height: 520px;
+}
+.berita-wrapp{
+    background-color: #3B3B3B;
+}
+.rw-berita{
+    justify-content: space-between;
+}
+.wrapp-row{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+.wrapp-row i{
+    color: #ffffff;
+    font-size: 20px;
+}
+.wrapp-row .title{
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+.btn-lihat-semua{
+    color: #ffffff;
+}
+.carausel-content{
+    margin-top: 138px;
+}
+.maps{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3B3B3B;
+}
+.maps h4{
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.wrapp-terkait{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.terkait{
+    text-align: center;
+    width: fit-content;
+    border-bottom: 6px double #8c8c8c;
+    color: #636363;
+    font-size: 34px;
+}
+.img-link a img{
+    width: 300px;
+}
+.ct-algn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ct-algn .bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: transparent;
+    background: transparent;
+}
