@@ -1,8 +1,35 @@
 p{
     margin-bottom: 0;
 }
-.carausel-content .carousel .carousel-inner{
-    height: 520px;
+
+.carousel-caption {
+    position: absolute;
+    bottom: auto;
+    top: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.image-float{
+    width: 30vh;
+    margin-bottom: 20px;
+}
+.text-float-1{
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text-float-2{
+    font-size: 24px;
+    color: #ffffff;
+    background-color: rgb(133, 133, 133);
+    padding: 10px 14px;
+    border-radius: 12px;
+    width: fit-content;
+    margin: auto;
 }
 .berita-wrapp{
     background-color: #3B3B3B;
@@ -64,4 +91,184 @@ p{
     box-shadow: none;
     border: transparent;
     background: transparent;
+}
+.wrapper-galery-item{
+    padding: 0 14px;
+    margin-bottom: 24px;
+}
+.wrapper-galery-item a img{
+    width: 100%;
+}
+.wrapper-galery-item a p{
+    display: none;
+}
+.wrapper-galery-item:hover a p{
+    text-align: center;
+    height: 100%;
+    background-color: #ffffffa6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    color: #272727;
+    font-size: 16px;
+    padding-top: 24px;
+    display: block;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.title-galery i{
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: #ffc107;
+    padding: 10px;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+
+.database{
+    background-image: url(../images/triangle_pattern.png);
+    background-color: #F7F7F7;
+    background-repeat: repeat;
+    background-position: 0% 50%;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.title-database{
+    text-align: center;
+    width: fit-content;
+    border-bottom: 6px double #8c8c8c;
+    color: #636363;
+    font-size: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.database-desc{
+    text-align: center;
+    color: #636363;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.overlay-info{
+    position: absolute;
+    top: 50%;
+    margin-top: -48px;
+    width: 100%;
+    text-align: center;
+}
+.relatif{
+    position: relative;
+}
+.bg-white{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.name-category{
+    font-size: 24px;
+    color: #ffffff;
+}
+.btn-lihat{
+    color: #ffffff;
+}
+.relatif img{
+    opacity: 0.7;
+}
+.relatif:hover img{
+    opacity: 1;
+}
+.card-item-disp{
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+}
+.card-item-disp:hover{
+    text-decoration: none;
+}
+.card-item-disp .card-body{
+    color: #636363;
+}
+.card-item-disp .card-body .card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-item-disp .card-body .card-date{
+    margin-bottom: 14px;
+}
+.card-item-disp .card-body .card-date i{
+    margin-right: 8px;
+}
+.seputar{
+    margin-bottom: 80px;
+}
+.category-card{
+    color: #636363;
+    margin-bottom: 30px;
+}
+.last-news{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(../images/triangle_pattern.png);
+    background-color: #dff0d8;
+    background-repeat: repeat;
+    background-position: 0% 50%;
+    background-attachment: fixed;
+}
+
+.berita .bx-wrapper{
+    max-width: 100% !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #212121;
+    border-bottom: solid 10px;
+    border-top: solid 10px;
+    border-left: 0;
+    border-right: 0;
+    background: #212121;
+    margin-bottom: 0;
+}
+.rw-slider .item:hover .wrapper-card .wrapper-title{
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);    
+    transition-duration: 0.1s;
+    opacity: 1;
+}
+.rw-slider .item:hover .wrapper-card img{
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);    
+    transition-duration: 0.3s;
+}
+.wrapper-title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #212121;
+    text-align: center;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);    
+    transition-duration: 0.3s;
+    opacity: 0;
+}
+.wrapper-title .judul-berita{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.wrapper-title .time{
+    color: #6e6e6e;
+    font-size: 14px;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+.carousel-item .img-banner{
+    object-fit: cover;
+    height: 78vh;
+    width: 100%;
 }
