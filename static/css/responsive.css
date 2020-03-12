@@ -18,6 +18,19 @@
     .maps h4 {
         font-size: 18px;
     }
+    .profil{
+        margin-top: 84px;
+    }
+    .title-profile{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .link-sub{
+        font-size: 14px;
+    }
+    .content-profile{
+        padding-top: 20px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
