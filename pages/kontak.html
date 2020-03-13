@@ -24,7 +24,7 @@
 
     <!-- Custom Css -->
     <link href="../static/css/app.css" rel="stylesheet" />
-    <link href="../static/css/berita.css" rel="stylesheet" />
+    <link href="../static/css/download.css" rel="stylesheet" />
     <link href="../static/css/responsive.css" rel="stylesheet" />
 
     <!-- animate -->
@@ -79,11 +79,11 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="download.html">Download</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Berita</a>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="kontak.html">Kritik dan Saran</a>
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Kritik dan Saran</a>
                     </li>
                 </ul>
             </div>
@@ -93,55 +93,58 @@
     <section class="profil">
         <div class="head-profile">
             <div class="container ct-head">
-                <h1 class="title-profile">Berita</h1>
+                <h1 class="title-profile">KRITIK DAN SARAN</h1>
                 <div class="wrapp-sub-link">
                     <a href="../index.html" class="link-sub mr-2">Home</a>
                     /
-                    <a href="#" class="link-sub ml-2 active">Berita</a>
+                    <a href="#" class="link-sub ml-2 active">Kritik dan Saran</a>
                 </div>
             </div>
         </div>
         <div class="container content-profile">
-            <div class="row">
-                <div class="col-md-3">
-                    <a class="card-berita" href="detail.html" class="card">
-                        <img src="../static/images/bg-1.jpeg" style="width: 100%; height: 200px; object-fit: cover;" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="berita-name">FESTIVAL NUTU PONTA 2019</h5>
-                          <p class="list-group-item-meta"><i class="fa fa-user-circle"></i>Admin <span class="tp-sparator">/</span> <i class="fa fa-clock-o"></i> 12 Maret 2020</p>
-                          <p>Halo Guys, buat kalian yang bingung besok mau habisin weekend kemana nah kalian bisa datang ...</p>
+            <div class="row" style="justify-content: center;">
+                <div class="col-md-6">
+                    <p><strong>Media Ini Dibuat Untuk Menampung Segala Saran Dan Kritik Anda, Manfaatkan Kesempatan Ini
+                            Untuk Kemajuan Dinas Kepemudaan Olahraga Dan Pariwisata.</strong></p>
+                    <hr>
+
+                    <form method="post" action="https://disporapar.kabpaser.com/guestbook/send">
+                        <div class="form-group">
+                            <label class="control-label">Nama <span class="text-required">*</span></label>
+                            <input type="text" class="form-control" id="inputPassword" placeholder=""
+                                name="guestbook_name" required="">
                         </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a class="card-berita" href="detail.html" class="card">
-                        <img src="../static/images/bg-1.jpeg" style="width: 100%; height: 200px; object-fit: cover;" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="berita-name">FESTIVAL NUTU PONTA 2019</h5>
-                          <p class="list-group-item-meta"><i class="fa fa-user-circle"></i>Admin <span class="tp-sparator">/</span> <i class="fa fa-clock-o"></i> 12 Maret 2020</p>
-                          <p>Halo Guys, buat kalian yang bingung besok mau habisin weekend kemana nah kalian bisa datang ...</p>
+                        <div class="form-group">
+                            <label class="control-label">Email <span class="text-required">*</span></label>
+                            <input type="email" class="form-control" placeholder="" name="guestbook_email" required="">
                         </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a class="card-berita" href="detail.html" class="card">
-                        <img src="../static/images/bg-1.jpeg" style="width: 100%; height: 200px; object-fit: cover;" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="berita-name">FESTIVAL NUTU PONTA 2019</h5>
-                          <p class="list-group-item-meta"><i class="fa fa-user-circle"></i>Admin <span class="tp-sparator">/</span> <i class="fa fa-clock-o"></i> 12 Maret 2020</p>
-                          <p>Halo Guys, buat kalian yang bingung besok mau habisin weekend kemana nah kalian bisa datang ...</p>
+                        <div class="form-group">
+                            <label class="control-label">Pesan <span class="text-required">*</span></label>
+                            <textarea class="form-control" name="guestbook_pesan" rows="6" required=""></textarea>
                         </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a class="card-berita" href="detail.html" class="card">
-                        <img src="../static/images/bg-1.jpeg" style="width: 100%; height: 200px; object-fit: cover;" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="berita-name">FESTIVAL NUTU PONTA 2019</h5>
-                          <p class="list-group-item-meta"><i class="fa fa-user-circle"></i>Admin <span class="tp-sparator">/</span> <i class="fa fa-clock-o"></i> 12 Maret 2020</p>
-                          <p>Halo Guys, buat kalian yang bingung besok mau habisin weekend kemana nah kalian bisa datang ...</p>
+                        <div class="form-group">
+                            <script type="text/javascript"
+                                src="https://www.google.com/recaptcha/api.js?render=onload&amp;hl=en" async=""
+                                defer=""></script>
+                            <div class="g-recaptcha" data-sitekey="6LdEcyYTAAAAAFH0seiyPYTlpSe2XHUjZnWU4Bql"
+                                data-theme="light" data-type="audio" data-size="normal">
+                                <div style="width: 304px; height: 78px;">
+                                    <div><iframe
+                                            src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdEcyYTAAAAAFH0seiyPYTlpSe2XHUjZnWU4Bql&amp;co=aHR0cHM6Ly9kaXNwb3JhcGFyLmthYnBhc2VyLmNvbTo0NDM.&amp;hl=en&amp;type=audio&amp;v=f1wAZV34wmOO4-wA3kszbUcM&amp;theme=light&amp;size=normal&amp;cb=372pvyjiqqlg"
+                                            width="304" height="78" role="presentation" name="a-xjfc0o71rcmz"
+                                            frameborder="0" scrolling="no"
+                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                    </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                        class="g-recaptcha-response"
+                                        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                </div><iframe __idm_frm__="67" style="display: none;"></iframe>
+                            </div>
                         </div>
-                    </a>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-outline-success">Kirim</button>
+                        </div>
+                    </form>
+
                 </div>
             </div>
         </div>
