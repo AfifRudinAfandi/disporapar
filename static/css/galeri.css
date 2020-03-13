@@ -1,0 +1,113 @@
+.profil{
+    margin-top: 138px;
+}
+
+.head-profile{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: rgba(0, 0, 0, 0.089);
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.ct-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-profile{
+    color: #636363;
+}
+.wrapp-sub-link .active{
+    color: #FFB600;
+}
+.content-profile{
+    min-height: 300px;
+}
+.link-sub{
+    color: #8c8c8c;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.link-sub:hover{
+    text-decoration: none;
+    color: #FFB600;
+}
+.content-profile{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #636363;
+}
+.wrapper-album{
+    position: relative;
+}
+.wrapper-album-title{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+}
+
+.wrapper-album-item {
+    padding: 0 14px;
+    margin-bottom: 24px;
+}
+.wrapper-album-item a img {
+    width: 100%;
+}
+.wrapper-album-item a p {
+    text-align: center;
+    background-color: #ffffffd3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #272727;
+    font-size: 16px;
+    padding-top: 10px;
+    display: block;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.title-profile{
+    max-width: 60%;
+}
+.wrapper-galery-item-2{
+    padding: 0 14px;
+    margin-bottom: 24px;
+}
+.wrapper-galery-item-2 a img{
+    width: 100%;
+}
+.wrapper-galery-item-2 a p{
+    display: none;
+}
+.wrapper-galery-item-2:hover a p{
+    text-align: center;
+    height: 100%;
+    background-color: #ffffffa6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    color: #272727;
+    font-size: 16px;
+    padding-top: 24px;
+    display: block;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.title-galery i{
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: #ffc107;
+    padding: 10px;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
