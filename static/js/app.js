@@ -45,7 +45,7 @@
       moveSlides: 1,
       pager: false,
       responsive: true,
-      touchEnabled: true,
+      touchEnabled: false,
       infiniteLoop: true,
       slideMargin: 0,
       shrinkItem: true,
