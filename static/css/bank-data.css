@@ -1,0 +1,48 @@
+
+.content-profile{
+    min-height: 300px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.title-bankdata{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bank-data-desc{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-img-bank-data{
+    text-align: center;
+}
+.card-hov{
+    border-radius: 12px;
+    padding: 16px 18px;
+}
+.card-hov:hover{
+    background-color: rgb(240, 78, 78);
+}
+.card-hov:hover .wrapper-user .item-2{
+    color: #ffffff;
+}
+.wrapper-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item-1{
+    width: 50%;
+    padding: 10px;
+}
+.item-1 img{
+    border-radius: 12px;
+}
+.item-2{}
