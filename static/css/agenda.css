@@ -1,38 +1,7 @@
-.profil{
-    margin-top: 138px;
-}
 .content-profile{
     min-height: 300px;
     padding-top: 60px;
     padding-bottom: 60px;
-}
-.head-profile{
-    border-bottom: 1px solid;
-    border-top: 1px solid;
-    border-color: rgba(0, 0, 0, 0.089);
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-.ct-head{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.title-profile{
-    color: #636363;
-}
-.wrapp-sub-link .active{
-    color: #FFB600;
-}
-.link-sub{
-    color: #8c8c8c;
-    text-transform: uppercase;
-    font-size: 18px;
-}
-.link-sub:hover{
-    text-decoration: none;
-    color: #FFB600;
 }
 .tgl-agenda{
     color: #cfcfcf;
