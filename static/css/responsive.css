@@ -42,6 +42,16 @@
         font-size: 22px;
         line-height: 32px;
     }
+    .image-bank-data{
+        width: 100%;
+    }
+    .wrapper-user .item-1{
+        width: 50%;
+        margin: auto;
+    }
+    .wrapper-user .item-2{
+        width: 100%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
