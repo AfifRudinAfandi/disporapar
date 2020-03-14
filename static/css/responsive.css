@@ -9,6 +9,9 @@
     .text-float-2{
         font-size: 18px;
     }
+    .image-float{
+        width: 100%;
+    }
     .berita .bx-wrapper{
         padding-left: 14px;
     }
